@@ -1,0 +1,38 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-primary: #f6f4ff;
+    --bg-secondary: #34252F;
+    --text-primary: #100b47;
+    --text-secondary: #676b94;
+
+    --fs-h1-sm: 62px;
+    --fs-h1-lg: 72px;
+    --fs-h2-sm: 52px;
+    --fs-h2-lg: 62px;
+    --fs-h3-sm: 42px;
+    --fs-h3-lg: 52px;
+    --fs-h4-sm: 32px;
+    --fs-h4-lg: 42px;
+    --fs-p-default-sm: 16px;
+    --fs-p-default-lg: 26px;
+    --fs-p-big-sm: 18px;
+    --fs-p-big-lg: 28px;
+    --fs-p-small: 14px;
+
+    --box-shadow: rgba(79, 25, 167, 0.1) 0px 10px 30px 0px;
+
+    --border-radius: 10px;
+}
+
+body {
+    margin: 0;
+    font-family: "Mukta", sans-serif;
+    color: var(--text-secondary);
+    overflow-x: hidden;
+    background-color: var(--bg-primary);
+}
