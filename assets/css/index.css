@@ -82,11 +82,12 @@ a:hover {
     display: flex;
     justify-content: space-between;
     list-style: none;
+    padding: 0;
 }
 
 .main-nav__list-item {
     padding-inline: 1rem;
-    font-size: 20px;
+    font-size: var(--fs-p-big-sm);
     font-weight: 700;
 }
 
@@ -167,4 +168,19 @@ a:hover {
 .arrow-down-icon {
     width: 20px;
     height: 20px;
+}
+
+@media(min-width: 980px) {
+    .mobile-nav {
+        display: none;
+    }
+
+    .main-nav__menu {
+        display: none;
+    }
+
+    .main-nav__left,
+    .main-nav__right {
+        display: block;
+    }
 }
