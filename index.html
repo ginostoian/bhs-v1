@@ -20,12 +20,57 @@
     <!-- Own Style -->
     <link rel="stylesheet" href="./assets/css/index.css">
 
+    <!-- Javascript -->
+    <script src="./assets/js/navigation.js" defer></script>
+
     <title>Better Homes Studio - A better way to improve your home</title>
 </head>
 
 <body>
-    <h1>Simona, te iubesc!</h1>
-    <img src="./assets/logo/BH.svg" alt="">
+    <header>
+        <nav class="main-nav container">
+            <div class="main-nav__left">
+                <ul class="main-nav__list">
+                    <li class="main-nav__list-item"><a href="">Portfolio</a></li>
+                    <li class="main-nav__list-item"><a href="" class="dropdown-item"><span>Services</span> <img
+                                class="arrow-down-icon" src="./assets/icons/arrow-down.svg" alt="expand"></a></li>
+                    <li class="main-nav__list-item"><a href="">Contact</a></li>
+                </ul>
+            </div>
+            <div class="main-nav__center">
+                <img class="main-nav__logo" src="./assets/logo/BH.svg" alt="better homes studio logo">
+            </div>
+            <div class="main-nav__menu" aria-label="menu" role="button" tabindex="0" aria-controls="mobile-nav">
+                <img class="main-nav__icon" src="./assets/icons/menu.svg" alt="better homes studio logo">
+            </div>
+            <div class="main-nav__right">
+                <ul class="main-nav__list">
+                    <li class="main-nav__list-item"><a href="">About</a></li>
+                    <li class="main-nav__list-item"><a href="">Blog</a></li>
+                    <li class="main-nav__list-item"><a href="">FAQ</a></li>
+                </ul>
+            </div>
+
+            <!-- mobile navigation -->
+            <div class="mobile-nav">
+                <div class="mobile-nav__left">
+                    <ul class="mobile-nav__list">
+                        <li class="mobile-nav__list-item"><a href="">Portfolio</a></li>
+                        <li class="mobile-nav__list-item"><a href="" class="dropdown-item"><span>Services</span> <img
+                                    class="arrow-down-icon" src="./assets/icons/arrow-down.svg" alt="expand"></a></li>
+                        <li class="mobile-nav__list-item"><a href="">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="mobile-nav__right">
+                    <ul class="mobile-nav__list">
+                        <li class="mobile-nav__list-item"><a href="">About</a></li>
+                        <li class="mobile-nav__list-item"><a href="">Blog</a></li>
+                        <li class="mobile-nav__list-item"><a href="">FAQ</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
 </body>
 
 </html>

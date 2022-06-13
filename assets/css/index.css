@@ -35,4 +35,135 @@ body {
     color: var(--text-secondary);
     overflow-x: hidden;
     background-color: var(--bg-primary);
+    font-size: var(--fs-p-default-sm);
+    line-height: 20px;
+}
+
+.container {
+    max-width: 80%;
+    margin-inline: auto;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 2px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-primary)
+}
+
+a:hover {
+    color: var(--text-secondary);
+}
+
+/* Header / Navigation */
+
+.main-nav {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+    padding-inline: 1rem;
+    border-radius: 10px;
+    box-shadow: var(--box-shadow);
+    position: relative;
+
+}
+
+.main-nav__left,
+.main-nav__right {
+    display: none;
+}
+
+.main-nav__list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.main-nav__list-item {
+    padding-inline: 1rem;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.main-nav__menu {
+    background-color: var(--bg-primary);
+    padding: .5rem;
+    border-radius: 10px;
+}
+
+.main-nav__menu:hover {
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.main-nav__icon {
+    height: 40px;
+    width: 40px;
+}
+
+.main-nav__logo {
+    height: 100px;
+    width: 200px;
+}
+
+/* Mobile Navigation */
+
+.mobile-nav {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 100%;
+    padding-top: 2rem;
+    left: 0;
+    right: 0;
+    transform: translateY(-200%);
+    transition: transform 300ms ease-in-out;
+}
+
+.mobile-nav--visbile {
+    transform: translateY(0)
+}
+
+.mobile-nav__left,
+.mobile-nav__right {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: var(--box-shadow);
+}
+
+.mobile-nav__left {
+    width: 49%;
+    padding: 1rem 1.4rem;
+}
+
+.mobile-nav__right {
+    width: 49%;
+    padding: 1rem 1.4rem;
+}
+
+.mobile-nav__list {
+    list-style: none;
+    padding: 0;
+}
+
+.mobile-nav__list-item {
+    font-size: var(--fs-p-big-sm);
+    font-weight: 700;
+    margin-bottom: 1.65rem;
+}
+
+.dropdown-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.arrow-down-icon {
+    width: 25px;
+    height: 25px;
 }
