@@ -24,6 +24,7 @@
 :root {
     --bg-primary: #f6f4ff;
     --bg-secondary: #34252F;
+    --clr-accent: #7421fc;
     --text-primary: #100b47;
     --text-secondary: #676b94;
 
@@ -76,7 +77,27 @@ a:hover {
 }
 
 .accent-word {
-    color: #7421fc;
+    color: var(--clr-accent);
+}
+
+.btn {
+    background-color: var(--clr-accent);
+    color: #fff;
+    font-weight: 700;
+    padding: 12px 30px;
+    border-radius: 6px;
+    box-shadow: var(--box-shadow);
+    font-size: var(--fs-p-default-sm);
+    line-height: 26px;
+    cursor: pointer;
+    display: inline-block;
+    text-transform: capitalize;
+    transition: background-color 400ms ease;
+}
+
+.btn:hover {
+    background-color: var(--text-primary);
+    color: #fff;
 }
 
 /* Header / Navigation */
@@ -312,7 +333,9 @@ a:hover {
     border-radius: 10px;
 }
 
-.hero__right {
+/* check if this works when adding media queries */
+
+.hero__right-img-fill {
     width: 100%;
     height: 300px;
     border-radius: 20px;
