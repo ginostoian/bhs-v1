@@ -1,18 +1,28 @@
 @font-face {
     font-family: Satoshi;
     src: url(../fonts/Satoshi-Regular.otf);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Satoshi;
+    src: url(../fonts/Satoshi-Medium.otf);
+    font-weight: 500;
+    font-display: swap;
 }
 
 @font-face {
     font-family: Satoshi;
     src: url(../fonts/Satoshi-Bold.otf);
     font-weight: 700;
+    font-display: swap;
 }
 
 @font-face {
     font-family: Satoshi;
     src: url(../fonts/Satoshi-Black.otf);
     font-weight: 900;
+    font-display: swap;
 }
 
 *,
@@ -83,7 +93,31 @@ a:hover {
 .standout {
     font-size: 20px;
     text-align: center;
-    font-weight: 700;
+    font-weight: 500;
+}
+
+.logo-wrapper {
+    background-color: #fff;
+    opacity: .7;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: .5rem;
+    flex-wrap: wrap;
+    padding: 32px 3%;
+    margin: 40px 0 60px;
+    box-shadow: var(--box-shadow);
+}
+
+.logo-wrapper__brand {
+    width: 80px;
+    height: 80px;
+}
+
+.brand-google {
+    margin: 12px 0%;
+    width: 140px;
+    height: 60px;
 }
 
 .btn {
