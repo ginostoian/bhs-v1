@@ -604,6 +604,7 @@ a:hover {
     color: var(--text-primary);
     font-weight: black;
     margin-bottom: 2rem;
+    margin-top: 0;
 }
 
 .footer__quarter-link-wrapper {
@@ -637,6 +638,18 @@ a:hover {
         height: 50px;
         padding: 12px 30px;
         margin-bottom: 0px;
+    }
+}
+
+@media (min-width: 768px) {
+    .footer__quarter-wrapper {
+        display: flex;
+        gap: 2rem;
+    }
+
+    .footer__body-quarter {
+        width: 50%;
+        margin-bottom: 2rem;
     }
 }
 
