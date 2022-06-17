@@ -526,6 +526,29 @@ a:hover {
     line-height: 20px;
 }
 
+.footer__body-half {
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: var(--box-shadow);
+}
+
+.footer-logo-wrapper {
+    display: flex;
+}
+
+.footer__logo {
+    display: inline-block;
+    height: 90px;
+    width: 90px;
+}
+
+.footer__logo-text {
+    font-size: 17px;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-left: -10px;
+}
+
 @media(min-width: 480px) {
     .form {
         position: relative;
@@ -563,5 +586,9 @@ a:hover {
 
     .footer__subscribe-left {
         width: 50%;
+    }
+
+    .subscribe-left__title {
+        margin-bottom: 0;
     }
 }
