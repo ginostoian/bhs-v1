@@ -526,7 +526,7 @@ a:hover {
     line-height: 20px;
 }
 
-.footer__body {
+.footer__body-half {
     position: relative;
 }
 
@@ -553,6 +553,7 @@ a:hover {
     font-weight: 700;
     color: var(--text-primary);
     margin-left: -10px;
+    line-height: 28px;
 }
 
 .footer__body-desc {
@@ -561,6 +562,7 @@ a:hover {
     line-height: 26px;
     font-weight: 500;
     padding-inline: 10px;
+    max-width: 1300px;
 }
 
 .footer__body-social-wrapper {
@@ -591,6 +593,12 @@ a:hover {
     opacity: .25;
     bottom: 5px;
     right: 50px;
+}
+
+.footer__body-quarter {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
 }
 
 @media(min-width: 480px) {
