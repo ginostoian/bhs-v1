@@ -525,3 +525,43 @@ a:hover {
     font-weight: 500;
     line-height: 20px;
 }
+
+@media(min-width: 480px) {
+    .form {
+        position: relative;
+    }
+
+    .form-input__email {
+        text-align: left;
+        padding: 5px 5px 5px 20px;
+        height: 60px;
+        margin-bottom: 0px;
+    }
+
+    .form-input__btn {
+        position: absolute;
+        width: 35%;
+        max-width: 140px;
+        top: 25px;
+        right: 26px;
+        height: 50px;
+        padding: 12px 30px;
+        margin-bottom: 0px;
+    }
+}
+
+@media(min-width: 980px) {
+    .footer__subscribe {
+        display: flex;
+        justify-content: space-between;
+        gap: 2rem;
+    }
+
+    .footer__subscribe-right {
+        width: 45%;
+    }
+
+    .footer__subscribe-left {
+        width: 50%;
+    }
+}
