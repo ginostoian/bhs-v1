@@ -478,6 +478,24 @@ a:hover {
 
 }
 
+/* Services Section */
+
+.services__header {
+    text-align: center;
+}
+
+.services__header-title {
+    color: var(--text-primary);
+    font-weight: 700;
+    font-size: 38px;
+}
+
+.services__header-subtitle {
+    color: #7421fc;
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
 
 
 /* Footer */
