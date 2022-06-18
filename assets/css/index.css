@@ -480,18 +480,18 @@ a:hover {
 
 /* Services Section */
 
-.services__header {
+.section__header {
     text-align: center;
     margin-bottom: 150px;
 }
 
-.services__header-title {
+.section__header-title {
     color: var(--text-primary);
     font-weight: 700;
     font-size: 38px;
 }
 
-.services__header-subtitle {
+.section__header-subtitle {
     color: #7421fc;
     font-weight: 500;
     font-size: 24px;
@@ -543,7 +543,7 @@ a:hover {
 }
 
 @media(min-width: 480px) {
-    .services__header-title {
+    .section__header-title {
         font-size: 52px;
     }
 }
@@ -584,6 +584,99 @@ a:hover {
 
     .order-1 {
         order: 0;
+    }
+}
+
+/* How we work section */
+
+.how-we-work {
+    margin-bottom: 5rem;
+    text-align: left;
+}
+
+.how-we-work-text {
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.step {
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.how-we-work-body {
+    line-height: 1.7rem;
+}
+
+.how-we-work-title {
+    font-size: 2rem;
+    color: var(--text-primary);
+    line-height: 42px;
+}
+
+.step-number {
+    font-size: 1.5rem;
+    color: var(--clr-accent);
+    margin-bottom: 0;
+    line-height: 3rem;
+    font-weight: 400;
+}
+
+.step-title {
+    color: var(--text-primary);
+    margin-top: 0;
+    font-size: 1.1rem;
+}
+
+.step-text {
+    line-height: 1.5rem;
+    font-size: 0.9rem;
+}
+
+@media screen and (min-width:768px) {
+    .how-we-work-steps {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5%;
+        text-align: left;
+        justify-content: space-evenly;
+    }
+
+    .step {
+        width: 45%;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .how-we-work-container {
+        display: flex;
+    }
+
+    .how-we-work-steps {
+        width: 70%;
+    }
+
+    .how-we-work-text {
+        width: 30%;
+        align-self: flex-end;
+    }
+
+    .how-we-work-title {
+        font-size: 2.6rem;
+        text-align: right;
+        line-height: 48px;
+    }
+
+    .how-we-work-body {
+        text-align: right;
+    }
+
+    .step {
+        width: 40%;
     }
 }
 
@@ -664,7 +757,7 @@ a:hover {
 .footer__body-desc {
     margin-bottom: 25px;
     font-size: 1rem;
-    line-height: 26px;
+    line-height: 30px;
     font-weight: 500;
     max-width: 1300px;
 }
