@@ -770,7 +770,7 @@ a:hover {
 .indicators {
     position: absolute;
     bottom: 0;
-    left: 50%;
+    left: 45%;
     transform: translateX(-50%);
 }
 
@@ -796,6 +796,10 @@ button.active {
 @media(min-width: 550px) {
     .review {
         font-size: 20px;
+    }
+
+    .indicators {
+        left: 50%;
     }
 }
 
