@@ -747,14 +747,24 @@ a:hover {
 
 .testimonial-title {
     font-size: var(--fs-h4-sm);
+    line-height: var(--fs-h4-sm);
     font-weight: 700;
 }
 
 .review {
-    font-size: 20px;
+    font-size: 16px;
     line-height: 30px;
     margin-top: 30px;
     max-width: 100vw;
+}
+
+.hidden {
+    display: none;
+}
+
+.testimonial-readmore {
+    padding: 12px 25px;
+    font-size: 16px;
 }
 
 .indicators {
@@ -783,6 +793,12 @@ button.active {
     background: #fff;
 }
 
+@media(min-width: 550px) {
+    .review {
+        font-size: 20px;
+    }
+}
+
 @media (min-width: 800px) {
     .testimonial__body {
         /* width: 50%; */
@@ -798,11 +814,19 @@ button.active {
         min-height: auto;
         margin-left: 0;
     }
+
+    .hidden {
+        display: inline;
+    }
 }
 
 @media(min-width: 1050px) {
     .testimonial {
         margin: 0 auto;
+    }
+
+    .hidden {
+        display: inline;
     }
 }
 
