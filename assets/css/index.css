@@ -800,6 +800,12 @@ button.active {
     }
 }
 
+@media(min-width: 1050px) {
+    .testimonial {
+        margin: 0 auto;
+    }
+}
+
 /* Footer */
 
 .footer__subscribe {
