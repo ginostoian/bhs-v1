@@ -718,7 +718,7 @@ a:hover {
 }
 
 .wrapper {
-    width: 300%;
+    width: 500%;
     /* 300% 'caz we have 3 cards */
     min-height: 100%;
     display: flex;
@@ -726,7 +726,7 @@ a:hover {
     transition: 1s;
 }
 
-.card {
+.testimonial {
     max-width: 800px;
     min-height: 100%;
     background: #fff;
@@ -739,16 +739,22 @@ a:hover {
     margin: 0 10px;
 }
 
-.card-body {
+.testimonial-body {
     width: 100%;
     min-height: 100%;
     height: auto;
+}
+
+.testimonial-title {
+    font-size: var(--fs-h4-sm);
+    font-weight: 700;
 }
 
 .review {
     font-size: 20px;
     line-height: 30px;
     margin-top: 30px;
+    max-width: 100vw;
 }
 
 .indicators {
@@ -777,17 +783,17 @@ button.active {
     background: #fff;
 }
 
-@media (max-width: 800px) {
+@media (min-width: 800px) {
     .testimonial__body {
         /* width: 50%; */
         margin: auto;
     }
 
-    .card {
+    .testimonial {
         flex-direction: column;
     }
 
-    .card-body {
+    .testimonial-body {
         width: 100%;
         min-height: auto;
         margin-left: 0;
