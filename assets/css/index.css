@@ -680,6 +680,120 @@ a:hover {
     }
 }
 
+/* Testimonials */
+
+.testimonial__main {
+    background-color: var(--text-primary);
+    color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 40px;
+}
+
+.testimonial__header {
+    padding-inline: 20px;
+    margin-bottom: 40px;
+}
+
+.testimonial__header-title {
+    font-size: 38px;
+    line-height: 40px;
+    margin-top: 20px;
+    /* max-width: 50%; */
+}
+
+.testimonial__header-subtitle {
+    font-size: 18px;
+    /* max-width: 50%; */
+}
+
+.testimonial__body {
+    position: relative;
+    color: var(--text-primary);
+    /* max-width: 800px; */
+    /* min-width: 350px; */
+    /* min-height: 250px; */
+    padding-bottom: 40px;
+    overflow: hidden;
+}
+
+.wrapper {
+    width: 300%;
+    /* 300% 'caz we have 3 cards */
+    min-height: 100%;
+    display: flex;
+    justify-content: space-between;
+    transition: 1s;
+}
+
+.card {
+    max-width: 800px;
+    min-height: 100%;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: var(--box-shadow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 0 10px;
+}
+
+.card-body {
+    width: 100%;
+    min-height: 100%;
+    height: auto;
+}
+
+.review {
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 30px;
+}
+
+.indicators {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.indicators button {
+    background: none;
+    border: none;
+    outline: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    cursor: pointer;
+    margin-left: 5px;
+    transition: .5s;
+}
+
+button.active {
+    width: 40px;
+    border-radius: 50px;
+    background: #fff;
+}
+
+@media (max-width: 800px) {
+    .testimonial__body {
+        /* width: 50%; */
+        margin: auto;
+    }
+
+    .card {
+        flex-direction: column;
+    }
+
+    .card-body {
+        width: 100%;
+        min-height: auto;
+        margin-left: 0;
+    }
+}
+
 /* Footer */
 
 .footer__subscribe {
