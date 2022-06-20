@@ -209,6 +209,7 @@ a:hover {
     padding-inline: 1rem;
     font-size: var(--fs-p-default-sm);
     font-weight: 400;
+    position: relative;
 }
 
 .main-nav__menu {
@@ -225,6 +226,33 @@ a:hover {
 .main-nav__icon {
     height: 40px;
     width: 40px;
+}
+
+/* Nav dropdown */
+
+.dropdown-menu {
+    display: none;
+    flex-direction: column;
+    width: 220px;
+    gap: 1rem;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px 5px;
+    box-shadow: var(--box-shadow);
+    position: absolute;
+    top: 60px;
+    left: -20px;
+    list-style-type: none;
+}
+
+.dropdown__list-item {
+    padding-inline: 1rem;
+    font-size: var(--fs-p-default-sm);
+    font-weight: 500;
+}
+
+.dropdown-menu-visible {
+    display: flex;
 }
 
 /* Mobile Navigation */
