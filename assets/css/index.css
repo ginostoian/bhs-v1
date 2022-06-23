@@ -999,6 +999,22 @@ button.active {
     font-weight: 500;
 }
 
+.footer__body-copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: var(--text-primary);
+    color: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.footer__copyright-link {
+    color: #7421fc;
+}
+
 @media(min-width: 480px) {
     .form {
         position: relative;
