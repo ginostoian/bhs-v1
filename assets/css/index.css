@@ -517,6 +517,7 @@ a:hover {
     color: var(--text-primary);
     font-weight: 700;
     font-size: 38px;
+    line-height: 55px;
 }
 
 .section__header-subtitle {
@@ -573,6 +574,12 @@ a:hover {
 @media(min-width: 480px) {
     .section__header-title {
         font-size: 52px;
+    }
+}
+
+@media(min-width: 595px) {
+    .section__header-title {
+        line-height: unset;
     }
 }
 
@@ -911,9 +918,21 @@ button.active {
 } */
 
 .faq-title {
-    font-weight: 900;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 700;
     color: var(--text-primary);
     margin: 0 35px 0 0;
+}
+
+@media(min-width: 600px) {
+    .faq-title {
+        font-size: 24px;
+    }
+
+    .faq {
+        padding: 45px;
+    }
 }
 
 .faq-answer {
