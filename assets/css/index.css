@@ -715,7 +715,7 @@ a:hover {
     color: #fff;
     padding: 20px;
     border-radius: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 5rem;
 }
 
 .testimonial__header {
@@ -864,24 +864,33 @@ button.active {
 
 /* FAQ */
 
+.faq-section {
+    margin-bottom: 5rem;
+}
+
 .faq {
-    background-color: transparent;
-    /* border: 1px solid #9fa4a8; */
+    background-color: #fff;
     box-shadow: var(--box-shadow);
     border-radius: 20px;
-    margin: 20px 0;
+    margin: 20px auto;
     padding: 30px;
     position: relative;
     overflow: hidden;
     transition: 0.3s ease;
+    max-width: 800px;
 }
 
 .faq.active {
-    background-color: #fff;
+    background-color: var(--text-primary);
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.1);
+    color: #fff;
 }
 
-.faq.active::before,
+.faq.active .faq-title {
+    color: #fff;
+}
+
+/* .faq.active::before,
 .faq.active::after {
     content: '\f075';
     font-family: 'Font Awesome 5 Free';
@@ -899,15 +908,22 @@ button.active {
     top: -10px;
     left: -30px;
     transform: rotateY(180deg)
-}
+} */
 
 .faq-title {
+    font-weight: 900;
+    color: var(--text-primary);
     margin: 0 35px 0 0;
 }
 
 .faq-answer {
     display: none;
     margin: 30px 0 0;
+    line-height: 26px;
+}
+
+.faq a {
+    color: #7421fc;
 }
 
 .faq.active .faq-answer {
@@ -935,21 +951,21 @@ button.active {
     outline: 0;
 }
 
-.faq-toggle .fa-times {
+.faq-toggle .close-faq {
     display: none;
 }
 
-.faq.active .faq-toggle .fa-times {
+.faq.active .faq-toggle .close-faq {
     color: #fff;
     display: block;
 }
 
-.faq.active .faq-toggle .fa-chevron-down {
+.faq.active .faq-toggle .open-faq {
     display: none;
 }
 
 .faq.active .faq-toggle {
-    background-color: #9fa4a8;
+    background-color: #cfd2ec;
 }
 
 /* Footer */
