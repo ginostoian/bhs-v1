@@ -987,6 +987,18 @@ button.active {
     background-color: #cfd2ec;
 }
 
+@media(min-width: 980px) {
+    .faq-container {
+        display: flex;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .faq {
+        width: 48%;
+    }
+}
+
 /* Footer */
 
 .footer__subscribe {
