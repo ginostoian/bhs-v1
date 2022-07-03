@@ -1020,6 +1020,7 @@ button.active {
 
 .article-container {
     background-color: var(--text-primary);
+    box-shadow: var(--box-shadow);
     border-radius: 20px;
     padding: 40px 20px;
     color: #fff;
