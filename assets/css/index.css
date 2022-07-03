@@ -811,10 +811,7 @@ a:hover {
 }
 
 .indicators {
-    position: absolute;
-    bottom: 0;
-    left: 40%;
-    transform: translateX(-50%);
+    display: none;
 }
 
 .indicators button {
@@ -891,6 +888,14 @@ button.active {
 
     .hidden {
         display: inline;
+    }
+
+    .indicators {
+        display: block;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
     }
 }
 
