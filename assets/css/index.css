@@ -261,6 +261,11 @@ a:hover {
     display: flex;
 }
 
+.dropdown-menu-visible-mobile {
+    display: flex;
+    top: 150px;
+}
+
 /* Mobile Navigation */
 
 .mobile-nav {
