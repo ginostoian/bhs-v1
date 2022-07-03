@@ -725,6 +725,7 @@ a:hover {
 /* Testimonials */
 
 .testimonial__main {
+    position: relative;
     background-color: var(--text-primary);
     color: #fff;
     padding: 20px;
@@ -833,6 +834,33 @@ button.active {
     width: 40px;
     border-radius: 50px;
     background: #fff;
+}
+
+.arrow-controls {
+    display: flex;
+    gap: 2rem;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.arrow-container-left,
+.arrow-container-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-primary);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.arrow-container-left:hover,
+.arrow-container-right:hover {
+    opacity: .8;
+}
+
+.arrow-container-left img,
+.arrow-container-right img {
+    width: 80%;
 }
 
 @media(min-width: 550px) {
