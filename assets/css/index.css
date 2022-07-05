@@ -462,27 +462,6 @@ a:hover {
 }
 
 @media(min-width: 980px) {
-    .mobile-nav {
-        display: none;
-    }
-
-    .main-nav__menu {
-        display: none;
-    }
-
-    .main-nav__left,
-    .main-nav__right {
-        display: block;
-    }
-
-    .main-nav__logo {
-        margin-left: -30px;
-    }
-
-    .main-nav__logo-text {
-        font-size: 20px;
-    }
-
     .hero {
         display: flex;
         justify-content: space-between;
@@ -519,6 +498,29 @@ a:hover {
         left: 55px;
     }
 
+}
+
+@media(min-width: 1100px) {
+    .mobile-nav {
+        display: none;
+    }
+
+    .main-nav__menu {
+        display: none;
+    }
+
+    .main-nav__left,
+    .main-nav__right {
+        display: block;
+    }
+
+    .main-nav__logo {
+        margin-left: -30px;
+    }
+
+    .main-nav__logo-text {
+        font-size: 20px;
+    }
 }
 
 /* Services Section */
