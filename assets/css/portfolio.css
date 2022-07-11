@@ -62,7 +62,7 @@ body {
     font-family: "Satoshi", sans-serif;
     color: var(--text-secondary);
     overflow-x: hidden;
-    background-color: #ddddf9;
+    background-color: #ddf4f9;
     font-size: var(--fs-p-default-sm);
     line-height: 20px;
 }
@@ -417,7 +417,7 @@ a:hover {
     width: 100%;
     height: 300px;
     border-radius: 20px;
-    background-image: url(../img/blog-home.webp);
+    background-image: url(../illustrations/house.svg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
