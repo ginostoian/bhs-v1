@@ -581,6 +581,12 @@ a:hover {
     color: var(--text-primary);
 }
 
+.post-subtitle-sub {
+    font-size: var(--fs-p-default-lg);
+    line-height: 40px;
+    color: var(--text-primary);
+}
+
 .post-paragraph {
     font-size: 17px;
     line-height: 25px;
