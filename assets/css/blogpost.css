@@ -604,6 +604,12 @@ a:hover {
     padding: 2rem;
 }
 
+.post-img {
+    display: flex;
+    margin-inline: auto;
+    max-width: 100%;
+}
+
 
 /* Blog */
 
