@@ -617,7 +617,7 @@ a:hover {
         object-fit: cover;
     }
 
-    .service-wrapper-img>img {
+    .service-wrapper-img > img {
         height: 450px;
         /* display: none; */
         object-fit: cover;
